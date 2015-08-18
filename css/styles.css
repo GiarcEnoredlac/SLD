@@ -22,7 +22,7 @@ h4,
 h5,
 h6 {
 /*  font-weight: 600;
-*/  font-family: 'Times New Roman', sans-serif;
+*/  font-family: 'Raleway', sans-serif;
 }
 a {
   color: #45aed6;
@@ -172,7 +172,8 @@ text-transform: uppercase;
 *******Header******
 **************************/
 #main-nav.navbar-default {
-background: #FFFFFF;
+background: #fff;
+color: #000;
 }
 #main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {
 background: rgb(72, 177, 223);
@@ -191,21 +192,21 @@ color: #FFFFFF;
   padding: 10px 15px 1px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-color: #FFFFFF;
- 
-background: #717075;
+color: #000;
+background: #fff;
 }
 .navbar-default .navbar-nav>li>a{
 color: #FFFFFF;
 } 
 #main-nav.navbar-default {
-background: #222;
+background: #fff;
 border-bottom: #48B1DF 1px solid;
+color: #000;
 }
-.navbar-nav>li {
+/*.navbar-nav>li {
 border-right: 1px solid #303030;
 border-left: 1px solid #171717;
-}
+}*/
  
 
 @media only screen and (min-width: 768px) {
@@ -220,7 +221,7 @@ border-left: 1px solid #171717;
     border-bottom: 4px solid transparent;
 }
   .navbar-default .navbar-nav>li>a {
-	color: #FFFFFF;
+	color: #000;
 	}
   #main-nav.navbar-default .navbar-nav > li.active > a,
 
@@ -228,7 +229,7 @@ border-left: 1px solid #171717;
   #main-nav.navbar-default .navbar-nav > li:hover > a {
     background: #48B1DF; 
 	
-    color: #FFF;
+    color: #000;
   
 }
   #main-nav.navbar-default .dropdown-menu {
@@ -601,6 +602,7 @@ margin: 0 8px;
 }
 #our-team .team-member .team-img img{
   margin: 0 auto;
+  padding-bottom: 15px;
 }
 #our-team .team-member .team-info { 
   background: #E5E5E5;
@@ -711,8 +713,8 @@ line-height: 22px;
 }
  .navbar-nav {
 margin: 0;
-border-left: 1px solid #303030;  
-border-right: 1px solid #171717;
+/*border-left: 1px solid #303030;  
+border-right: 1px solid #171717;*/
 }
 .tab-content {
   border: 1px solid #eee;
