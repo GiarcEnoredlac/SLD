@@ -17,6 +17,7 @@ jQuery(function($) {
     });
  
     function Scroll() {
+
         var contentTop = [];
         var contentBottom = [];
         var winTop = $(window).scrollTop();
