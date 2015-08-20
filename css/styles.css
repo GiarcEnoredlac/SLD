@@ -208,7 +208,46 @@ border-right: 1px solid #303030;
 border-left: 1px solid #171717;
 }*/
  
-
+@media (max-width: 1199px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: inline;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: center;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+    .navbar-brand {
+      float: left;
+    }
+}
 @media only screen and (min-width: 768px) {
   #main-nav.navbar-default { 
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
@@ -567,6 +606,24 @@ margin-bottom: 15px;
   background-size: cover;
   padding: 100px 0;
   color: #fff;
+}
+#testimonial a {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+#testimonial a:hover {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  background: #fff;
+  border: 2px solid #fff;
+  color:#000;
 }
 #testimonial h2{
 color:#fff;
